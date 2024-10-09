@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content {
+    border: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    background-color: violet;
+}
+
+.nav {
+    background-color: blue;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-two {
+    border: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-three {
+    border: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.berita {
+    background-color: aqua;
+    padding-bottom: 110px;
+    flex-grow: 2;
+}
+
+.populer {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.container-four {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content-four {
+    border: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: lightgreen;
+    flex-basis: 1fr;
+}
+
+@media (max-width= 800px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .content {
+        border: 3px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .header {
+        background-color: violet;
+    }
+    
+    .nav {
+        background-color: blue;
+    }
+
+    .container-two {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .content-two {
+        border: 3px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .item {
+        background-color: red;
+    }
+
+    .container-three {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .content-three {
+        border: 3px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .berita {
+        background-color: aqua;
+        flex-grow: 1;
+    }
+    
+    .populer {
+        background-color: yellow;
+        flex-grow: 1;
+    }
+
+    .container-four {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .content-four {
+        border: 3px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .footer {
+        background-color: lightgreen;
+    }
+}
